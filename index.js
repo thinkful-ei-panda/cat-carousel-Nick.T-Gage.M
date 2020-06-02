@@ -1,3 +1,4 @@
+// eslint-disable-next-line strict
 $('.thumbnail').on('click', e => {
-  console.log(e.target);
+  $('.hero img').attr('src', e.target);
 });
